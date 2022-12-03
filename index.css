@@ -1,0 +1,46 @@
+:root{
+    --primary-color:#7c3aed;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: var(--primary-color)
+}
+.container{
+    width: 20%;
+    margin: auto;
+}
+
+input, label{
+    display: block;
+    width: 100%;
+    margin: 1rem 0rem;
+    border: none;
+    font-size: 3vh;
+    color: black;
+}
+
+input{
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#check-number{
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    display: block;
+    margin: auto;
+    font-size: large;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+#output-box{
+    /* border: 2px solid black; */
+    margin: 2rem;
+    font-size: 2rem;
+    width: 150%;
+}
